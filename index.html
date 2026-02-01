@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>معهد التميز التعليمي - تعليم منظم ونتائج حقيقية</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&family=Tajawal:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-section">
+                    <div class="profile-image">
+                        <img src="./public/age-cymru-YOQA5SHsD_g-unsplash.jpg" alt="صورة المدرس">
+                        <div class="profile-ring"></div>
+                    </div>
+                    <div class="logo-text">
+                        <h1 class="logo-title">د. محمد الأحمد</h1>
+                        <p class="logo-subtitle">متخصص في تدريس الرياضيات والفيزياء</p>
+                    </div>
+                </div>
+                
+                <nav class="nav-desktop">
+                    <a href="#home" class="nav-link active">الرئيسية</a>
+                    <a href="#about" class="nav-link">من نحن</a>
+                    <a href="#courses" class="nav-link">الكورسات</a>
+                    <a href="#contact" class="nav-link">تواصل معنا</a>
+                </nav>
+                
+                <button class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sidebar Menu -->
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            
+            <div class="profile-image">
+                <img src="./public/age-cymru-YOQA5SHsD_g-unsplash.jpg" alt="صورة المدرس">
+                <div class="profile-ring"></div>
+            </div>
+            <div class="logo-text">
+                <h1 class="logo-title">د. محمد الأحمد</h1>
+                <p class="logo-subtitle">متخصص في تدريس الرياضيات والفيزياء</p>
+            </div>
+            
+            <button class="sidebar-close" id="sidebarClose">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <nav class="sidebar-nav">
+            <a href="#home" class="sidebar-link">
+                <i class="fas fa-home"></i>
+                <span>الرئيسية</span>
+            </a>
+            <a href="#about" class="sidebar-link">
+                <i class="fas fa-user"></i>
+                <span>من نحن</span>
+            </a>
+            <a href="#features" class="sidebar-link">
+                <i class="fas fa-star"></i>
+                <span>المميزات</span>
+            </a>
+            <a href="#courses" class="sidebar-link">
+                <i class="fas fa-book"></i>
+                <span>الكورسات</span>
+            </a>
+            <a href="#social" class="sidebar-link">
+                <i class="fas fa-share-alt"></i>
+                <span>التواصل الاجتماعي</span>
+            </a>
+            <a href="#booking" class="sidebar-link">
+                <i class="fas fa-calendar-check"></i>
+                <span>احجز كورسك</span>
+            </a>
+        </nav>
+    </div>
+
+    <!-- Overlay -->
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-award"></i>
+                    <span>أكثر من 10 سنوات من التميز</span>
+                </div>
+                <h1 class="hero-title">تعليم منظم، نتائج حقيقية<br>ومستقبل أوضح</h1>
+                <p class="hero-description">
+                    نقدم لك منهجية تعليمية متطورة تجمع بين الشرح المبسط والمتابعة المستمرة،
+                    مع أساليب تدريس حديثة تضمن فهم عميق وتحصيل أفضل لجميع المراحل الدراسية
+                </p>
+                <div class="hero-buttons">
+                    <a href="#booking" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i>
+                        <span>احجز كورسك الآن</span>
+                    </a>
+                    <a href="#courses" class="btn btn-secondary">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>تصفح الكورسات</span>
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label">طالب متميز</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">95%</div>
+                        <div class="stat-label">نسبة النجاح</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">سنوات خبرة</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">تعرف علينا</span>
+                <h2 class="section-title">من نحن</h2>
+                <p class="section-subtitle">خبرة طويلة في التعليم والتدريس الأكاديمي</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-card">
+                    <div class="about-image-wrapper">
+                        <div class="about-image">
+                            <img src="./public/age-cymru-YOQA5SHsD_g-unsplash.jpg" alt="د. محمد الأحمد">
+                            <div class="pulse-ring"></div>
+                            <div class="pulse-ring pulse-ring-delay"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-info">
+                        <h3 class="about-name">د. محمد الأحمد</h3>
+                        <p class="about-title">متخصص في الرياضيات والفيزياء</p>
+                        
+                        <div class="about-details">
+                            <div class="detail-item">
+                                <i class="fas fa-graduation-cap"></i>
+                                <div class="detail-content">
+                                    <h4>المؤهلات العلمية</h4>
+                                    <p>دكتوراه في الرياضيات التطبيقية</p>
+                                </div>
+                            </div>
+                            
+                            <div class="detail-item">
+                                <i class="fas fa-briefcase"></i>
+                                <div class="detail-content">
+                                    <h4>سنوات الخبرة</h4>
+                                    <p>أكثر من 10 سنوات في التدريس الأكاديمي</p>
+                                </div>
+                            </div>
+                            
+                            <div class="detail-item">
+                                <i class="fas fa-chalkboard-teacher"></i>
+                                <div class="detail-content">
+                                    <h4>أسلوب التدريس</h4>
+                                    <p>شرح مبسط مع أمثلة عملية وتطبيقات واقعية</p>
+                                </div>
+                            </div>
+                            
+                            <div class="detail-item">
+                                <i class="fas fa-trophy"></i>
+                                <div class="detail-content">
+                                    <h4>الإنجازات</h4>
+                                    <p>تخريج أكثر من 500 طالب متفوق</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="btn btn-outline">
+                            <i class="fas fa-info-circle"></i>
+                            <span>اعرف أكثر عن الأسلوب التعليمي</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">لماذا تختارنا</span>
+                <h2 class="section-title">مميزاتنا</h2>
+                <p class="section-subtitle">نقدم لك تجربة تعليمية متكاملة ومتميزة</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3 class="feature-title">شرح مبسط</h3>
+                    <p class="feature-description">
+                        منهجية تعليمية واضحة تركز على الفهم العميق وليس الحفظ
+                    </p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-check"></i>
+                    </div>
+                    <h3 class="feature-title">متابعة مستمرة</h3>
+                    <p class="feature-description">
+                        نتابع تقدم كل طالب بشكل فردي ونقدم الدعم اللازم
+                    </p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3 class="feature-title">تنظيم عالي</h3>
+                    <p class="feature-description">
+                        جداول منظمة ومحتوى مرتب يسهل عليك المذاكرة والمراجعة
+                    </p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h3 class="feature-title">دعم عبر واتساب</h3>
+                    <p class="feature-description">
+                        تواصل مباشر لحل الاستفسارات والمساعدة في أي وقت
+                    </p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <h3 class="feature-title">اختبارات دورية</h3>
+                    <p class="feature-description">
+                        تقييم مستمر لقياس مستوى الفهم والتحصيل الدراسي
+                    </p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-book-reader"></i>
+                    </div>
+                    <h3 class="feature-title">مواد تعليمية</h3>
+                    <p class="feature-description">
+                        ملازم وملخصات شاملة مع أمثلة ومسائل محلولة
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section class="courses" id="courses">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">الكورسات المتاحة</span>
+                <h2 class="section-title">كورساتنا</h2>
+                <p class="section-subtitle">اختر المرحلة الدراسية المناسبة لك</p>
+            </div>
+            
+            <div class="courses-grid" id="coursesGrid">
+                <!-- سيتم ملؤها من products.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Section -->
+    <section class="social" id="social">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">تابعنا</span>
+                <h2 class="section-title">التواصل الاجتماعي</h2>
+                <p class="section-subtitle">ابق على تواصل معنا عبر منصاتنا</p>
+            </div>
+            
+            <div class="social-grid">
+                <a href="https://wa.me/9647700000000" target="_blank" class="social-card whatsapp">
+                    <div class="social-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h3 class="social-title">واتساب</h3>
+                    <p class="social-description">تواصل معنا مباشرة</p>
+                </a>
+                
+                <a href="https://t.me/username" target="_blank" class="social-card telegram">
+                    <div class="social-icon">
+                        <i class="fab fa-telegram"></i>
+                    </div>
+                    <h3 class="social-title">تيليجرام</h3>
+                    <p class="social-description">انضم لقناتنا</p>
+                </a>
+                
+                <a href="https://instagram.com/username" target="_blank" class="social-card instagram">
+                    <div class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <h3 class="social-title">إنستغرام</h3>
+                    <p class="social-description">تابع محتوانا اليومي</p>
+                </a>
+                
+                <a href="https://youtube.com/@username" target="_blank" class="social-card youtube">
+                    <div class="social-icon">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <h3 class="social-title">يوتيوب</h3>
+                    <p class="social-description">شاهد محاضراتنا</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section class="booking" id="booking">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">سجل الآن</span>
+                <h2 class="section-title">احجز كورسك</h2>
+                <p class="section-subtitle">املأ البيانات وسنتواصل معك في أقرب وقت</p>
+            </div>
+            
+            <div class="booking-wrapper">
+                <form class="booking-form" id="bookingForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="studentName">
+                                <i class="fas fa-user"></i>
+                                الاسم الكامل
+                            </label>
+                            <input 
+                                type="text" 
+                                id="studentName" 
+                                name="studentName" 
+                                placeholder="أدخل اسمك الكامل"
+                                required
+                            >
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">
+                                <i class="fas fa-phone"></i>
+                                رقم الهاتف
+                            </label>
+                            <input 
+                                type="tel" 
+                                id="phone" 
+                                name="phone" 
+                                placeholder="07XX XXX XXXX"
+                                required
+                            >
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="stage">
+                            <i class="fas fa-graduation-cap"></i>
+                            المرحلة الدراسية
+                        </label>
+                        <select id="stage" name="stage" required>
+                            <option value="">اختر المرحلة</option>
+                            <option value="third">الثالث متوسط</option>
+                            <option value="fourth">الرابع علمي</option>
+                            <option value="fifth">الخامس علمي</option>
+                            <option value="sixth">السادس إعدادي</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="notes">
+                            <i class="fas fa-comment"></i>
+                            ملاحظات إضافية (اختياري)
+                        </label>
+                        <textarea 
+                            id="notes" 
+                            name="notes" 
+                            rows="4"
+                            placeholder="أي ملاحظات أو استفسارات تود إضافتها..."
+                        ></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-block">
+                        <i class="fas fa-paper-plane"></i>
+                        <span>إرسال الطلب</span>
+                    </button>
+                </form>
+                
+                <div class="booking-info">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h4>أوقات العمل</h4>
+                        <p>السبت - الخميس<br>9:00 ص - 9:00 م</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h4>الموقع</h4>
+                        <p>بغداد - المنصور<br>قرب ساحة الفردوس</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h4>البريد الإلكتروني</h4>
+                        <p>info@institute.edu</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">معهد التميز التعليمي</h3>
+                    <p class="footer-description">
+                        نقدم تعليماً متميزاً ومنظماً لجميع المراحل الدراسية
+                        مع متابعة مستمرة ونتائج مضمونة
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" class="footer-social-link"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" class="footer-social-link"><i class="fab fa-telegram"></i></a>
+                        <a href="#" class="footer-social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="footer-social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">روابط سريعة</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">الرئيسية</a></li>
+                        <li><a href="#about">من نحن</a></li>
+                        <li><a href="#courses">الكورسات</a></li>
+                        <li><a href="#booking">احجز الآن</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">تواصل معنا</h4>
+                    <ul class="footer-contact">
+                        <li><i class="fas fa-phone"></i> 07XX XXX XXXX</li>
+                        <li><i class="fas fa-envelope"></i> info@institute.edu</li>
+                        <li><i class="fas fa-map-marker-alt"></i> بغداد - المنصور</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 معهد التميز التعليمي. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Bottom Navigation -->
+    <nav class="mobile-nav" id="mobileNav">
+        <a href="#home" class="mobile-nav-item active">
+            <i class="fas fa-home"></i>
+            <span>الرئيسية</span>
+        </a>
+        <a href="#courses" class="mobile-nav-item">
+            <i class="fas fa-book"></i>
+            <span>الكورسات</span>
+        </a>
+        <a href="#booking" class="mobile-nav-item">
+            <i class="fas fa-calendar-check"></i>
+            <span>احجز</span>
+        </a>
+        <a href="#social" class="mobile-nav-item">
+            <i class="fa-solid fa-phone"></i>
+            <span>تواصل</span>
+        </a>
+    </nav>
+
+    <!-- Course Modal -->
+    <div class="modal" id="courseModal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-body" id="modalBody">
+                <!-- سيتم ملؤه ديناميكياً -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Success Message -->
+    <div class="toast" id="toast">
+        <i class="fas fa-check-circle"></i>
+        <span id="toastMessage">تم إرسال طلبك بنجاح!</span>
+    </div>
+
+    <!-- Scripts -->
+    <script src="products.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
